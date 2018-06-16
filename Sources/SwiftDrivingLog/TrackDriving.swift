@@ -1,6 +1,6 @@
 //
-//  SwiftDrivingLog.swift
-//  SwiftDrivingLog
+//  TrackDriving.swift
+//  TrackDriving
 //
 //  Created by Grace Tay on 4/22/18.
 //
@@ -9,7 +9,7 @@ import Foundation
 
 let dateFormatter = DateFormatter()
 
-public struct SwiftDrivingLog {
+public struct TrackDriving {
     public static func run(fileName: String) {
         do {
             let parser: Parser = Parser(dateFormatter: dateFormatter)
